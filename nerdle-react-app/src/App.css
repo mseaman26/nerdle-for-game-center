@@ -1,0 +1,196 @@
+:root{
+  --absent: rgb(22 24 5);
+  --misplaced: rgb(119 23 86);
+  --correct: rgb(79 134 117);
+  --blank: rgb(138, 134, 121);
+};
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 50px;
+  max-width: 370px;
+  background-color: black;
+  color: white;
+  margin: 100px auto 0 auto
+}
+.guessBox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 100%;
+  height: 45px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+.guessBox_blank{
+  background-color: var(--blank);
+}
+.absent{
+  background-color: var(--absent);
+  color: white;
+}
+.misplaced{
+  background-color: var(--misplaced);
+  color: white;
+}
+.correct{
+  background-color: var(--correct);
+  color: white;
+}
+
+.guessesContainer{
+  display: flex;
+  margin: 20px auto 0 auto;
+  width: 100%;
+  max-width: 370px;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 4px; /* Adjust the gap value as needed */
+}
+
+#keyboardRow1{
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+#keyboardRow2{
+  display: flex;
+  margin-top: 2px;
+  justify-content: center;
+}
+.keyButtonRow1{
+  padding: 10px;
+}
+.keyButton{
+  box-sizing: border-box;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 2px;
+  border-radius: 4px;
+}
+.keyButton_blank{
+  background-color: rgb(196, 207, 220);
+  color: black;
+}
+.keyButtonRow2{
+  padding-left: 10px;
+  padding-right: 10px;
+  min-width: 35px;
+  max-width: 70px;
+}
+.gameOver {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  text-align: center;
+}
+.gameOverCard{
+  height: fit-content;
+  width: 370px;
+  background-color: #fff;
+  color: black;
+  
+  text-align: start;
+  text-align: center;
+  position: relative;
+}
+.closeButton{
+  cursor: default;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 15px;
+  top: 10px;
+  display: inline;
+}
+.gameOverHeader{
+  color: var(--correct);
+  margin-top: 50px;
+}
+.shareButton{
+  cursor: default;
+  display: inline;
+  color: #fff;
+  /* background-color: rgb(62 85 143); */
+  background-color: var(--misplaced);
+  padding: 15px;
+  border-radius: 5px;
+}
+.single_result{
+  display: flex;
+  height: fit-content;
+}
+.single_result p{
+  margin: 0px;
+}
+.result_bar_container{
+  width: 85%;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+
+}
+.result_bar{
+  background-color: var(--correct);
+  height: 10px;
+}
+
