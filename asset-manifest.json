@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Mike-s-Nerdle/static/css/main.e4577615.css",
-    "main.js": "/Mike-s-Nerdle/static/js/main.0e8fdf2f.js",
-    "static/js/787.102daeef.chunk.js": "/Mike-s-Nerdle/static/js/787.102daeef.chunk.js",
-    "static/media/shuffled_equations.txt": "/Mike-s-Nerdle/static/media/shuffled_equations.764e8d515fc9ed8c1646.txt",
-    "index.html": "/Mike-s-Nerdle/index.html",
-    "main.e4577615.css.map": "/Mike-s-Nerdle/static/css/main.e4577615.css.map",
-    "main.0e8fdf2f.js.map": "/Mike-s-Nerdle/static/js/main.0e8fdf2f.js.map",
-    "787.102daeef.chunk.js.map": "/Mike-s-Nerdle/static/js/787.102daeef.chunk.js.map"
+    "main.css": "/mseaman26/nerdle-for-game-center/static/css/main.e4577615.css",
+    "main.js": "/mseaman26/nerdle-for-game-center/static/js/main.b927471d.js",
+    "static/js/787.102daeef.chunk.js": "/mseaman26/nerdle-for-game-center/static/js/787.102daeef.chunk.js",
+    "static/media/shuffled_equations.txt": "/mseaman26/nerdle-for-game-center/static/media/shuffled_equations.764e8d515fc9ed8c1646.txt",
+    "index.html": "/mseaman26/nerdle-for-game-center/index.html",
+    "main.e4577615.css.map": "/mseaman26/nerdle-for-game-center/static/css/main.e4577615.css.map",
+    "main.b927471d.js.map": "/mseaman26/nerdle-for-game-center/static/js/main.b927471d.js.map",
+    "787.102daeef.chunk.js.map": "/mseaman26/nerdle-for-game-center/static/js/787.102daeef.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e4577615.css",
-    "static/js/main.0e8fdf2f.js"
+    "static/js/main.b927471d.js"
   ]
 }
